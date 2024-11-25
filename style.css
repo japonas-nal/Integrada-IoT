@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+body {
+    margin: 0;
+    font-family: outfit;
+    background-image: url(assets/Blackground.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+}
+
+h1 {
+    margin: 1rem;
+    color: rgb(201, 201, 201);
+
+}
+
+.principal{
+    margin: 1rem;
+    justify-content: center;
+    display: flex;
+
+}
+.navbar{
+    background-color: rgba(188, 188, 188, 0.253);
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    backdrop-filter: blur(2px);
+    border-radius: 0px 0px 20px 20px;
+    box-shadow: 0px 0px 10px 2.5px rgba(255, 255, 255, 0.547);
+    position: fixed;
+    width: 100%;
+    z-index: 99;
+    top: 0;
+}
+
+.navbar ul{
+    margin: 1rem;
+    display: flex;
+    list-style-type: none;
+}
+
+.navbar a {
+    margin: 1rem;
+    text-decoration: none;
+    color: rgb(201, 201, 201);
+
+
+}
+.navbar li{
+    scale: 1;
+    transition: scale 0.25s;
+}
+.navbar li:hover{
+    scale: 1.2;
+}
+.introminha{
+    background-color: rgba(188, 188, 188, 0.253);
+    justify-content: center;
+    width: 40rem;
+    border-radius: 40px;
+    padding: 10px;
+    margin: 1rem;
+    box-shadow: 0px 0px 20px 5px rgba(0, 0, 0, 0.547);
+        
+}
+.introsua{
+    background-color: rgba(188, 188, 188, 0.253);
+    justify-content: center;
+    width: 40rem;
+    border-radius: 40px;
+    padding: 10px;
+    margin: 1rem;
+    margin-top: 4.5rem;
+    box-shadow: 0px 0px 20px 5px rgba(0, 0, 0, 0.547);
+}
+.nome{
+    justify-content: center;
+    text-align: center;
+    color: rgb(201, 201, 201);
+
+}
+.textimg{
+    display: flex;
+    color: rgb(201, 201, 201);
+
+}
+.texto{
+    color: rgb(201, 201, 201);
+
+}
+.textobaixo{
+    margin: 0.5rem;
+    color: rgb(201, 201, 201);
+}
+.imagem{
+    border-radius: 10px 10px 10px 10px;
+    margin: 1rem;
+    width: auto;
+    height: auto;
+    max-width: 300px;
+    max-height: 300px;
+    
+    
+}
+iframe{
+    margin: 0.5rem;
+    border-radius: 10px;
+}
+.prenche{
+    background-color: white;
+}
+.alinhar{
+    align-items: center;
+    display: flex;
+}
+.tao{
+    background: none;
+    color: white;
+    box-shadow: none;
+    border: none;
+    font-size: 25px;
+    display: none;
+    cursor: pointer;
+}
+.fechatao{
+    background: none;
+    color: white;
+    box-shadow: none;
+    border: none;
+    font-size: 25px;
+    display: none;
+    cursor: pointer;
+}
+.sometao{
+    display: flex;
+    margin-right: 20px;
+    align-items: center;
+}
+.menu{
+    display: none;
+    background-color: rgba(79, 79, 79, 0.784);
+    backdrop-filter: blur(2px);
+    border-radius: 20px 20px 20px 20px;
+    box-shadow: 0px 0px 10px 2.5px rgba(255, 255, 255, 0.547);
+    margin-top: 80px;
+    list-style-type: none;
+    width: fit-content;
+    right: 10px;
+    position: fixed;
+    z-index: 99;
+    padding-right: 40px;
+    text-align: right;
+}
+.menu a{
+    text-decoration: none;
+    color: rgb(201, 201, 201);
+}
+.menu li{
+    list-style-type: none;
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+.peter {
+    text-align: center;
+    color: rgb(201, 201, 201);
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    bottom: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.782);
+    backdrop-filter: blur(2px);
+}
+@media (max-width: 768px) {
+    .some{
+        display: none;
+    }
+    .tao{
+        display: block;
+    }
+}

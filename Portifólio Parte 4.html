@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            font-family: 'Arial Narrow', Arial, sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <fieldset>
+    <header>
+        <h1>Formulário de Pesquisa de Satisfação</h1>
+        <h2>Pesquisa de Satisfação de Navegação</h2>
+    </header>
+        
+    <form action="#" method="post">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome"required>
+
+            <label for="email">Email:</label>
+            <input type="email" name="ermail" id="email" required>  
+    </form>
+    <br>
+    <fieldset><h2>Avaliação de Navegação:</h2>
+
+    <label><input type="radio" name="estrela" value="1 estrela" required>1 estrela</label>
+    <label><input type="radio" name="estrela" value="2 estrelas" required>2 estrelas</label>
+    <label><input type="radio" name="estrela" value="3 estrelas" required>3 estrelas</label>
+    <label><input type="radio" name="estrela" value="4 estrelas" required>4 estrelas</label>
+    <label><input type="radio" name="estrela" value="5 estrelas" required>5 estrelas</label>
+    </fieldset>
+<br>
+    <fieldset><h2>Feedback</h2>
+    <ul>
+        <li><label><input type="checkbox" name="Feedback"value="Facilidade de Navegação">Facilidade de Navegação</label></li>
+        <li><label><input type="checkbox" name="Feedback"value="Design do Site">Design do Site</label></li>
+        <li><label><input type="checkbox" name="Feedback"value="Velocidade de Carregamento">Velocidade de Carregamento</label></li>
+    </ul>
+    </fieldset>
+    <h2>Comentários Adicionais</h2>
+    <textarea name="Comentários" id="Comentários" rows="4" cols="50"></textarea>
+    <br><button type="submit">Enviar</button>
+</fieldset>
+<h2>Dados Submetidos</h2>
+<pre id="dados-submetidos">
+    <!-- Simulação do Armazenamento dos Dados -->
+    <!-- Os dados coletados serão exibidos aqui -->
+</pre>
+</body>
+</html>
